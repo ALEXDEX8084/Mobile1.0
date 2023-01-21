@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.aboutPage"
+             Title="aboutPage">
+    <VerticalStackLayout>
+        <VerticalStackLayout>
+            <Entry FontFamily="Helvetica" x:Name="TextEditor"
+                FontSize="22" MaxLength ="20" Margin="210, 20, 210, 20"/>
+
+            <HorizontalStackLayout Margin="640, 20, 210, 20">
+
+                <Button Text="Сравнить" x:Name="Compare" Clicked="Compare_Clicked"/>
+
+            </HorizontalStackLayout>
+            <Entry FontFamily="Helvetica" x:Name="TextEditor2"
+                FontSize="22" MaxLength ="20" Margin="210, 20, 210, 20"/>
+            <Label x:Name="Label2" Margin="610, 20, 210, 20" />
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
